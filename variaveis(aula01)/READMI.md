@@ -1,0 +1,1 @@
+inicio de estudos teóricos  de JAVASCRIPT com variáveis
