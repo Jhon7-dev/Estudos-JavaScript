@@ -42,3 +42,26 @@ var total4 = 10+10*3+20/2; //40
 
 var soma1 = 10 + 10 +20 + 30 * 4/2 + 10;
 console.log(soma1);
+
+// Operadores Aritméticos Unarios
+var incremento = 5;
+console.log (incremento++);//5
+console.log(incremento);//6
+
+var incemento2 = 5;
+console.log(++incremento2); // 6
+console.log(incemento2); // 6
+
+// O + E - tenta transformar o valor seguite em número 
+
+var frase = 'Isso é um teste';
++frase; // NaN
+-frase;//  NaN
+
+var idade = '28';
++idade;//28(número)
+-idade;//-28(número)
+console.log(+idade + 5); // 33
+
+var possuiFaculdade = true;
+console.log(+possuiFaculdade); // 1
