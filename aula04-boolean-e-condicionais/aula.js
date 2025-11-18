@@ -74,4 +74,17 @@ false || true; // true
 'Gato' || false; // Gato
 (5 >= 5) || (3 < 6); // true
 
-/* */
+/* Switch */
+
+var corFavorita = 'Azul'
+
+switch(corFavorita){
+     case 'Azul':
+          console.log('bluee');
+          break;
+     case 'Amarelo':
+          console.log('Ouro')
+          break;
+     default:
+     console.log('Close your eyes')
+}
