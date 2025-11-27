@@ -3,19 +3,11 @@
 
 
 function  verificarValor(valor){
-     if(verificarValor === true){
-         return true; // console.log("truthy");
-     }else if(verificarValor === 1){
-         return true;  console.log("truthy");
-     }else if(verificarValor === ''){
-          return true; //  console.log("truthy");
-     }else if (verificarValor=== 'João Victor'){
-         return true;  //  console.log("truthy");
-     }else{
-           console.log("falso");
-     }
+   return !!valor;
 }
+console.log(verificarValor(''));
 console.log(verificarValor(1));
+
 
 // Crie uma função matemática que retorne o perímetro de um quadrado
 // lembrando: perímetro é a soma dos quatro lados do quadrado
@@ -59,6 +51,12 @@ console.log(verNome("João"));
 // utilize essa função para mostrar no console o seu nome completo
 // quando o evento 'scroll' ocorrer.
 
+// function chamarMeuNome(nome){
+//      console.log("João Victor Gomes De Souza")
+// }
+addEventListener('scroll', function(){
+     console.log("João");
+});
 // Corrija o erro abaixo
 // function precisoVisitar(paisesVisitados) {
 //   var totalPaises = 193;
