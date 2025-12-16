@@ -39,12 +39,16 @@ for (var i = 0; i< videoGames.length;i++){
 // BREAK
 // o loop irá parar caso encontro e palavra break
 
-var videoGames = ['Switch','ps4','xbox','3ds'];
-
-for (var i = 0; i< videoGames.length;i++){
-     console.log(videoGames[i], '-');
-     if (videoGames[item] == 'PS4'){
-          break;
-          // console.log('video game encontrado!');
-     }
+var videoGames = ['Switch', 'PS4', 'XBox', '3DS'];
+for (var i = 0; i < videoGames.length; i++) {
+  console.log(videoGames[i]);
+  if(videoGames[i] === 'PS4') {
+    break;
+  }
 }
+
+var videoGames = ['Switch', 'PS4', 'XBox', '3DS'];
+videoGames.forEach(function(item) {
+  console.log(item);
+});
+// O argumento item será atribuído dinamicamente
