@@ -58,10 +58,39 @@ console.log(gridSectionNode);// 3 itens
 // ARRAY-LIKE
 //HTMLCollection e NodeList são array-like, parecem uma array mas não são. O método de Array forEach() por exemplo, existe apenas em NodeList.
 
-const gridSection = document.querySelectorAll('.grid-section');
+// const gridSection = document.querySelectorAll('.grid-section');
 
-gridSection.forEach(function(gridItem, index, array) {
+// gridSection.forEach(function(gridItem, index, array) {
+//   gridItem.classList.add('azul');
+//   console.log(index) // index do item na array
+//   console.log(array) // a array completa
+// });
+
+// ARRAY-LIKE 
+// HTMLCollection e NodeList são arrayLike, parecem um array mas não são. O método de ARRAY forEach() por exemplo, existe em NodeList
+
+const gridSection = document.querySelectorAll('.grid-section');
+gridSection.forEach(function(gridItem, index, array){
+
   gridItem.classList.add('azul');
-  console.log(index) // index do item na array
-  console.log(array) // a array completa
+  console.log(index); // index do item na array
+  console.log(index); // a array completa
 });
+
+
+// Retorne no console todas as imagens do site
+const imgSite = document.querySelectorAll('.animais-lista img'); // selecionei todas as img do site
+console.log(imgSite); 
+// Retorne no console apenas as imagens que começaram com a palavra imagem
+const imgImage = document.getElementById('.imagem');
+console.log(imgImage);
+// Selecione todos os links internos (onde o href começa com #)
+const linkLink = document.querySelector('[href^="#"]');
+// Selecione o primeiro h2 dentro de .animais-descricao
+const h2Section = document.querySelector('h2');
+console.log(h2Section); 
+
+// Selecione o último p do site
+const pFooter = document.querySelector('.copy p');
+console.log(pFooter);
+
