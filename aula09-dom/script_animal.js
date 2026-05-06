@@ -7,7 +7,7 @@ console.log(animais.innerText);
 
 // Classe E Tag
 // getElementByClassName e getElementByTagName
-// selecionam e retornam uma lsita de elementos do DOM. A lista retornada está ao vivo, significa que se elementos forem adicionados, ela será automaticamente atualizada.
+// selecionam e retornam uma lista de elementos do DOM. A lista retornada está ao vivo, significa que se elementos forem adicionados, ela será automaticamente atualizada.
 
 // const gridSection = document.getElementsByClassName('grid-section');
 // console.log(gridSection.length);
@@ -82,8 +82,7 @@ gridSection.forEach(function(gridItem, index, array){
 const imgSite = document.querySelectorAll('.animais-lista img'); // selecionei todas as img do site
 console.log(imgSite); 
 // Retorne no console apenas as imagens que começaram com a palavra imagem
-const imgImage = document.getElementById('.imagem');
-console.log(imgImage);
+const imagensAnimais = document.querySelectorAll('img[src')
 // Selecione todos os links internos (onde o href começa com #)
 const linkLink = document.querySelector('[href^="#"]');
 // Selecione o primeiro h2 dentro de .animais-descricao
