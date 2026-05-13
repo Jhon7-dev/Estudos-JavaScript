@@ -24,7 +24,7 @@ form.addEventListener('submit', function(event){
 
     let description = '';
 
-    document.getElementById('infos').classList.remove('hidden');
+    document.getElementById('infos').classList.remove('hidden'); // removendo o hidden para mostrar o resultado
 
     if(bmi < 18.5){
 

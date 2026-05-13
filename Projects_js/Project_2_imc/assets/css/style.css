@@ -9,13 +9,16 @@ body{
      font-family: sans-serif;
      font-weight: 700;
      width:100%;
+     margin-top:100px;
 }
 #container{
+    justify-content: center;
      display:flex;
      align-items: center;
      gap:3.5rem;
 }
 #calculator{
+     justify-content: center;
      display:flex;
      flex-direction: column;
      padding:2rem;
