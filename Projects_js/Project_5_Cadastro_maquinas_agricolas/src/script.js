@@ -21,5 +21,16 @@ function meuEscopoForm(){
                fabricante: fabricante.value,// o value vai significar "pegue o valor digitado no input fabricante"
                potencia: potencia.value // acessar seus valores como input.value
           });
+          console.log(maquinas_agricolas);
+          resultado.innerHTML+=`
+          <p>
+          ${nome.value}
+          ${sobrenome.value}
+          ${peso.value}
+          ${altura.value}
+          </p>`;
      }
+     form.addEventListener('submit',recebeEventoForm);
+     
 }
+meuEscopoForm();
