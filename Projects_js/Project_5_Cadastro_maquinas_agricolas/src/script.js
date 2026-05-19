@@ -14,12 +14,18 @@ function meuEscopoForm(){
           const fabricante = document.querySelector('.fabricante');
           const potencia = document.querySelector('.potencia');
 
+
           // maquinas_agricolas.push(), vou adicionar  ao final do array
+
           maquinas_agricolas.push({
+
                // os elementos abaixo compõem um objeto,variáveis e funções
                nome: nome.value,  // o value é o texto digitado dentro do input
+
                fabricante: fabricante.value,// o value vai significar "pegue o valor digitado no input fabricante"
+
                potencia: potencia.value // acessar seus valores como input.value
+
           });
           console.log(maquinas_agricolas);
           resultado.innerHTML+=`
@@ -33,8 +39,8 @@ function meuEscopoForm(){
      //      const resultado = document.querySelector('.resultado');
      // resultado.innerHTML = '<p>CADASTRO CONCLUÍDO COM SUCESSO!</p>'
      console.log(resultado.innerHTML);
+     
 }
      form.addEventListener('submit',recebeEventoForm);
-     
 }
 meuEscopoForm();
