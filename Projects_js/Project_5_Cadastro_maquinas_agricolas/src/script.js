@@ -24,12 +24,16 @@ function meuEscopoForm(){
           console.log(maquinas_agricolas);
           resultado.innerHTML+=`
           <p>
+          Cadastro concluido com sucesso!
+          
           ${nome.value}
-          ${sobrenome.value}
-          ${peso.value}
-          ${altura.value}
+          ${fabricante.value}
+          ${potencia.value}
           </p>`;
-     }
+     //      const resultado = document.querySelector('.resultado');
+     // resultado.innerHTML = '<p>CADASTRO CONCLUÍDO COM SUCESSO!</p>'
+     console.log(resultado.innerHTML);
+}
      form.addEventListener('submit',recebeEventoForm);
      
 }
