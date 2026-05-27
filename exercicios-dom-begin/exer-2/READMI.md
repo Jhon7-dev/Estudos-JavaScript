@@ -1,0 +1,1 @@
+Escreva uma função em JavaScript para obter os valores de nome e sobrenome no seguinte formato.

@@ -1,0 +1,2 @@
+Aqui está um exemplo de arquivo HTML com um botão de envio. Agora, modifique o estilo do texto do parágrafo através de código JavaScript.
+,Ao clicar no botão, a fonte, o tamanho da fonte e a cor do texto do parágrafo serão alterados.
